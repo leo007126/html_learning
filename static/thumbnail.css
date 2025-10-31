@@ -1,0 +1,49 @@
+.thumbnail-container {
+ position: relative;
+ width: 335px;
+ 
+}
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  
+
+}
+.timestamp {
+  background-color:black;
+  width:35px;
+  color:white;
+  position:absolute;
+  right:5px;
+  bottom:13px;
+  font-size:13px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:3px;
+  padding-left:3px;
+
+}
+.profile-pic-info {
+  display: flex;
+  flex-direction:row;
+}
+.profile-pic {
+  border-radius:50px;
+  width:40px;
+  margin-right:15px;
+  margin-top:10px;
+}
+.video-info {
+  margin-top:10px;
+  width:280px;
+  font-size:14px;
+  font-weight:500;
+  margin-bottom:10px;
+  font-family: Roboto,arial;
+  line-height:20px;
+}
+.video-author, .video-status {
+  font-size:12px;
+  line-height:18px;
+  color:rgb(97, 97, 97);
+}

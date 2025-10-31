@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding-bottom: 3000px;
+    
+  }
+  div {
+   font-family: arial;
+  }
+  .one-container {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(224, 224, 224);
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+  .cat {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius:50px;
+    margin-left:50px;
+    
+  }
+  .profile-name {
+    margin-right:250px;
+    margin-left:10px;
+    font-weight:bold;
+  }
+  .add-button {
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(66, 112, 249);
+    border: none;
+    border-radius:6px;
+    margin-right:5px;
+  }
+  .message-button {
+    width: 90px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 209, 209);
+    border: none;
+    border-radius:6px;
+    font-weight:bold;
+  }
+  .profile-pic {
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    margin-bottom:5px;
+    border-radius:50px;
+    
+  }
+  .fixed-position {
+    position:fixed;
+    left:0;
+    background-color: rgb(45, 46, 46);
+    top:40px;
+    bottom:0;
+    margin-top:10px;
+    padding-right:15px;
+    
+  }
+  .fixed-two {
+    background-color: rgb(61, 60, 60);
+    top:50px;
+    position: fixed;
+    left:85px;
+    width:200px;
+    bottom:0;
+  }
+  .flex {
+    display:flex;
+    justify-content:space-between;
+    margin-left:20px;
+    margin-top:20px;
+    
+    
+  }
+</style>
+<body>
+  <div class="one-container">
+    <div> <img class="cat" src="images/OIP.webp" alt=""></div>
+    <div class="profile-name">Oliver Cat</div>
+    <div>
+      <button class="add-button">Add Friend</button>
+      <button class="message-button">Message</button>
+    </div>
+    
+  </div>
+
+      <div class="fixed-position">
+      <div style="margin-top:30px;">
+        <img class="profile-pic" src="images/cat.jpg" alt="">
+      </div>
+      <div>
+        <img class="profile-pic" src="images/OIP.webp" alt="">
+      </div>
+      <div>
+        <img class="profile-pic" src="images/cats.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="fixed-two">
+      <div class="flex">
+        <h3 style="color:white;">INFO</h3>
+        <h3 style="width:40px;
+        font-size:40px;
+        margin:0;
+        margin-top:5px;
+        color:gray;
+        ">+</h3>
+      </div>
+      <div style="color: rgb(162, 159, 159);
+      margin-left:20px;
+      font-size:20px;
+      
+      ">
+        <p style="margin-top:0;"># new-videos</p>
+        <p># updates</p>
+        <p># faq</p>
+      </div>
+      
+    </div>
+    
+</body>
+</html>

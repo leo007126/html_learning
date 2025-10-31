@@ -1,0 +1,92 @@
+ .biggest-deals {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        /* Bootstrap danger color */
+        margin-top: 10px;
+        font-family: Arial;
+
+    }
+
+    .sales-end {
+        font-size: 18px;
+        color: #d9534f;
+        /* Bootstrap danger color */
+        margin-top: 10px;
+        font-family: Arial;
+        font-style: italic;
+    }
+    .tahoma-font {
+        font-family: Tahoma, sans-serif;
+        font-size: 20px;
+        color: #333333;
+        margin-top: 20px;
+    }
+    .css-course {
+        font-size: 16px;
+        color: #000000;
+        margin-top: 10px;
+        font-family: Verdana;
+        font-weight: bold;
+        
+    }
+    .beginner-pro{ 
+        font-family: verdana;
+        color: grey;
+        font-size:14px;
+        margin-bottom: 30px;
+
+ 
+    }
+    .description {
+        font-size: 14px;
+        color: #0f0000;
+        margin-top: 10px;
+        font-family: Arial;
+        width: 300px;
+        font-family: verdana;
+        font-weight: bold;
+    }
+    .get-started-button {
+        background-color: green;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .shopping-business{
+        font-size: 30px;
+        color: #000000;
+        margin-top: 10px;
+        font-family: Arial;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .apple {
+        font-size: 20px;
+        color: #000000;
+        margin-top: 10px;
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;        
+        
+    }
+    .learn-more {
+        font-size: 16px;
+        color: #3853ce;
+        margin-top: 10px;
+        font-family: Arial;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .learn-more:hover {
+        text-decoration: underline;
+        transition: 0.15s;
+    }

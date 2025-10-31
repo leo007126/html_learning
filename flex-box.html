@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .design-fourteen {
+    border-radius: 11px;
+    border: none;
+    background-color: rgb(10, 93, 218);
+    color: whitesmoke;
+    height: 25px;
+   }
+   .design-three {
+     border-radius: 11px;
+    border: none;
+    background-color: rgb(10, 93, 218);
+    color: whitesmoke;
+    height: 25px;
+   }
+   .design-five {
+     border-radius: 11px;
+    border: none;
+    background-color: rgb(10, 93, 218);
+    color: whitesmoke;
+    height: 25px;
+   }
+   .search-bar {
+    width: 300px;
+    border-radius:20px;
+    border:none;
+    align-items:start;
+    height:30px;
+
+   }
+   .search-design {
+    background-color:blueviolet;
+    display:flex;
+    height:60px;
+    margin-top: 40px;
+    align-items:center;
+    flex-direction: row;
+    justify-content:space-between;
+
+   }
+   .left {
+    margin-left:10px;
+    color:white;
+   }
+   .right {
+    margin-right:10px;
+    
+
+   }
+   .download-button {
+    color: white;
+    background-color:blueviolet;
+    border-color:white;
+    height:30px;
+    width:90px;
+    border-style: solid;
+   }
+
+</style>
+
+<body style="padding-bottom: 1000px;">
+    <div style="display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        
+        ;">
+        <div style="background-color: lightblue;
+            width:200px">200px text</div>
+        <div style="background-color:lightpink;
+            width: 75px;">75px <p>text</p>
+        </div>
+    </div>
+
+    <div style="display: flex;
+        flex-direction: row;
+        
+        ">
+        <div style="background-color: lightblue;
+            width:50px">200px text</div>
+        <div style="background-color:lightpink;
+            flex:1;">remaining space <p>text</p>
+        </div>
+        <div style="background-color: lightblue;
+            width:75px;
+            ">75px item3</div>
+    </div>
+
+    <div style="display: flex;
+        flex-direction: row;
+        margin-top:30px;
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+        justify-content:space-between;
+        ">
+        <div style="background-color: lightblue;
+            width:100px">item 1</div>
+        <div style="background-color:lightpink;
+            width:100px">item 2 <p>text</p>
+        </div>
+        <div style="background-color: lightblue;
+            width:100px;
+            ">item 3</div>
+        <div style="background-color:lightpink;
+            width:100px">item 4<p>text</p>
+        </div>
+    </div>
+
+    <!-- First Flex Container -->
+<div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+">
+    <div style="background-color: lightblue; width: 100px; text-align: center;">
+        item 1
+    </div>
+    <div style="background-color: lightpink; width: 100px; text-align: center;">
+        item 2
+    </div>
+</div>
+
+<!-- Second Flex Container -->
+<div style="
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+">
+    <!-- Text Column -->
+    <div class="text" style="display: flex; flex-direction: column; gap: 10px;">
+        <span>Home</span>
+        <span>Notifications</span>
+        <span>Messages</span>
+    </div>
+
+    <!-- Number Column -->
+    <div class="number" style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="design-fourteen">14</button>
+        <button class="design-three">3</button>
+        <button class="design-five">5</button>
+    </div>
+</div>
+
+<div class="search-design">
+    <div class="left">
+        Home
+    </div>
+    <div class="middle">
+        <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="right">
+        <button class="download-button">
+            Download
+        </button>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+
+</html>

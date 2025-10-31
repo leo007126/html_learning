@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+     grid-column:20px;
+     grid-row: 10px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 100px 300px 100px;
+        height:100px;
+        margin-bottom:20px;
+    }
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius:50px;
+        
+    }
+    p {
+        font-family:arial;
+    }
+    .profile-name {
+        font-weight:bold;
+        font-size: 20px;
+    }
+    p {
+        margin: 0;
+    }
+
+</style>
+
+<body style="padding-bottom:1000px;">
+    <div style=" 
+        display:grid; 
+        grid-template-columns: 200px 75px;
+        ">
+            <div style="background-color: lightblue;
+        ">div1 <p>
+            200px
+        </p></div>
+        <div style="background-color: lightgreen;"> div2 <p>
+            75px
+        </p></div>
+    </div>
+
+    <div style=" 
+        display:grid; 
+        grid-template-columns: 50px 1fr 75px;
+        margin-top:20px;
+        ">
+            <div style="background-color: lightblue;
+        ">div1 <p>
+            200px
+        </p></div>
+        <div style="background-color: lightpink;
+        ">
+            div2 <p>1fr</p>
+        </div>
+        <div style="background-color: lightgreen;"> div3 <p>
+            75px
+        </p></div>
+    </div>
+
+    <div style=" 
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top:20px;
+        column-gap:20px;
+        row-gap: 10px;
+        margin-bottom:50px;
+
+        ">
+            <div style="background-color: lightblue;
+        ">div1 <p>
+            200px
+        </p></div>
+        <div style="background-color: lightpink;
+        ">
+            div2 <p>1fr</p>
+        </div>
+        <div style="background-color: lightgreen;"> div3 <p>
+            75px
+        </p></div>
+        <div style="background-color: lightslategray;">
+            div4
+        </div>
+            <div style="background-color: lightblue;
+        ">div1 <p>
+            200px
+        </p></div>
+        <div style="background-color: lightpink;
+        ">
+            div2 <p>1fr</p>
+        </div>
+        <div style="background-color: lightgreen;"> div3 <p>
+            75px
+        </p></div>
+        <div style="background-color: lightslategray;">
+            div4
+        </div>
+    </div>
+
+    <div class="grid">
+        <img class="profile-pic" src="images/cat.jpg" alt="">
+        <div style="margin-left:20px;">
+            <p  class="profile-name"
+            >oliver</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">the cat</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">Popular</p>
+        </div>
+        <button style="height:60px;
+         width: 130px;
+         align-items: center;
+         margin-top:20px;
+         border-radius:8px;
+         border:none;
+         background-color:rgb(76, 118, 224);
+         color: white;
+         font-size:30px;
+        ">Follow</button>
+    </div>
+
+    <div class="grid">
+        <img class="profile-pic" src="images/cats.jpg" alt="">
+        <div style="margin-left:20px;">
+            <p  class="profile-name"
+            >Rex</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">cute cat</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">Popular</p>
+        </div>
+        <button style="height:60px;
+         width: 130px;
+         align-items: center;
+         margin-top:20px;
+         border-radius:8px;
+         border:none;
+         background-color:rgb(76, 118, 224);
+         color: white;
+         font-size:30px;
+        ">Follow</button>
+    </div>
+
+    <div class="grid">
+        <img class="profile-pic" src="images/OIP.webp" alt="">
+        <div style="margin-left:20px;">
+            <p  class="profile-name"
+            >Mimi</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">sleepy cat</p>
+            <p style="margin-top:10px;
+            font-size: 20px;
+            color:gray;
+            ">Popular</p>
+        </div>
+        <button style="height:60px;
+         width: 130px;
+         align-items: center;
+         margin-top:20px;
+         border-radius:8px;
+         border:none;
+         background-color:rgb(76, 118, 224);
+         color: white;
+         font-size:30px;
+        ">Follow</button>
+    </div>
+
+
+</body>
+
+</html>

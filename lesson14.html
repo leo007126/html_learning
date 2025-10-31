@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Fixed Sidebar Modal</title>
+  <style>
+    /* Fixed right sidebar */
+    .side-bar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+      background-color: green;
+    }
+
+    .click-sidebar {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Modal hidden by default */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    /* Show modal on target */
+    #openModal:target {
+      display: flex;
+    }
+
+    .modal-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: red;
+    }
+
+    .close-btn:hover {
+      color: darkred;
+    }
+  </style>
+</head>
+<body style="height: 3000px;">
+
+  <!-- Fixed Sidebar -->
+  <div class="side-bar">
+    <a href="#openModal" class="click-sidebar">Sidebar</a>
+  </div>
+
+  <!-- Modal Section -->
+  <div id="openModal" class="modal">
+    <div class="modal-box">
+      <a href="#" class="close-btn">&times;</a>
+      <h2>Pure CSS Modal</h2>
+      <p>This modal uses only HTML and CSS.</p>
+    </div>
+  </div>
+
+</body>
+</html>

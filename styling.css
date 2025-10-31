@@ -1,0 +1,114 @@
+ .request-button {
+
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            margin-right: 20px;
+            transition: 0.15s;
+        }
+
+        .request-button:hover {
+            opacity: 0.70;
+        }
+         .addtocart-button {
+             background-color: rgb(231, 228, 26);
+           color: rgb(0, 0, 0);
+            height: 50px;
+            width: 230px;
+            cursor: pointer;
+            border-radius: 90px;
+            margin-right: 20px;
+            border: none;
+            transition: 0.15s;
+        }
+
+        .addtocart-button:hover {
+            background-color: rgb(233, 203, 33)
+        }
+        .addtocart-button:active {
+            background-color: rgb(200, 180, 30);
+        }
+         .Signup-button {
+            background-color: rgb(17, 157, 13);
+            color: rgb(255, 255, 255);
+            height: 50px;
+            width: 130px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            transition: 0.15s;
+            
+        }
+        .signup-button:hover {
+            box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.15);
+        }
+         .get-started-button {
+            background-color: rgb(130, 41, 152);
+            color: white;
+            height: 50px;
+            width: 120px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            margin-top: 20px;
+            transition: 0.15s;
+        }
+        .get-started-button:hover {
+            background-color: rgb(115, 36, 134);
+            
+        }
+                .download-button {
+            background-color: rgb(255, 255, 255);
+            color: rgb(108, 117, 125);
+            height: 50px;
+            width: 120px;
+            cursor: pointer;
+            border-radius: 5px;
+            border-color: lightgrey;
+            margin-top: 20px;
+            border-style: solid;
+            transition: 0.15s;
+
+
+        }
+        .download-button:hover {
+            background-color: rgb(108, 117, 125);
+            color: rgb(255, 255, 255);
+        }
+        .apply-button {
+            background-color: rgb(10, 102, 194);
+            color: white;
+            height: 50px;
+            width: 200px;
+            border-radius: 25px;
+            border-color: rgb(14, 14, 169);
+            border-style: solid;
+            cursor: pointer;
+            margin-left: 20px;
+            transition: 0.15s;
+
+
+        }
+        .apply-button:hover {
+            background-color: rgb(14, 14, 169);
+            
+        }
+        .save-button {
+            background-color: rgb(255, 255, 255);
+            color: rgb(14, 14, 169);
+            height: 50px;
+            width: 100px;
+            cursor: pointer;
+            border-radius: 30px;
+            border-color: rgb(18, 18, 182);
+            margin-top: 20px;
+            border-style: solid;
+            font-weight: bold;
+            transition: 0.15s;
+        }
+        .save-button:hover {
+            background-color: rgb(129, 173, 255);
+            
+        }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discord Style Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /* First sidebar (server list) */
+    .sidebar-server {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 72px;
+      height: 100vh;
+      background-color: #202225;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+
+    /* Second sidebar (channel list) */
+    .sidebar-channel {
+      position: fixed;
+      top: 0;
+      left: 72px; /* next to server sidebar */
+      width: 240px;
+      height: 100vh;
+      background-color: #2f3136;
+      color: white;
+      padding: 1rem;
+    }
+
+    /* Main content area */
+    .main-content {
+      margin-left: 312px; /* 72 + 240 */
+      height: 100vh;
+      background-color: #36393f;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    .message {
+      background-color: #40444b;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Server Sidebar -->
+  <div class="sidebar-server">
+    <div>🏠</div>
+    <div>🎮</div>
+    <div>📚</div>
+  </div>
+
+  <!-- Channel Sidebar -->
+  <div class="sidebar-channel">
+    <h3>General</h3>
+    <p># welcome</p>
+    <p># announcements</p>
+    <p># chat</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="message">Welcome to the server!</div>
+    <div class="message">Here's your main chat area.</div>
+    <div class="message">Scroll and interact here.</div>
+  </div>
+
+</body>
+</html>

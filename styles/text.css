@@ -1,0 +1,50 @@
+.title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        width: 350px;
+        font-size: 20px;
+        font-family: Arial;
+        margin-bottom: 0;
+        
+    }
+    .stats {
+        font-size: 14px;
+        color: gray;
+        margin-top: 5px;
+        font-family: Arial;
+    }
+    .author {
+        font-size: 16px;
+        color: rgb(10, 102, 194);
+        margin-top: 5px;
+        font-family: Arial;
+    }
+    .description {
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+        margin-top: 10px;
+        font-family: Arial;
+        width: 280px;
+    }
+    .shop-now {
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(227, 65, 64);
+        padding: 20px;
+        margin-top: 70px;
+        font-family: Arial;
+        width: 877px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .span {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .span:hover {
+        text-decoration: underline;
+        transition: 0.15s;
+    }

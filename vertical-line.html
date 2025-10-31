@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Post Box</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000406;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .tweet-box {
+      background-color: #fff;
+      padding: 15px 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 500px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .profile-pic {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .tweet-content {
+      flex-grow: 1;
+    }
+
+    .tweet-content textarea {
+      width: 100%;
+      height: 100px;
+      border: none;
+      resize: none;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .tweet-content textarea::placeholder {
+      color: #657786;
+    }
+
+    .tweet-content button {
+      background-color: #1da1f2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      float: right;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .tweet-content button:hover {
+      background-color: #0d8ddf;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tweet-box">
+    <img src="OIP.webp" alt="Profile Picture" class="profile-pic">
+    <div class="tweet-content">
+      <textarea placeholder="What's happening?"></textarea>
+      <button>Tweet</button>
+    </div>
+  </div>
+
+</body>
+</html>

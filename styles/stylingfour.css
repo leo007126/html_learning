@@ -1,0 +1,121 @@
+.new {
+            font-size: 20px;
+            color: rgb(226, 142, 17);
+            font-weight: bold;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .macbook {
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-top: 5px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .pros {
+            font-size: 60px;
+            color: rgb(0, 0, 0);
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+
+
+        }
+
+        .buy {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 122, 255);
+            display: inline-block;
+            border-radius: 20px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 0;
+            margin-left: 350px;
+            padding: 10px 20px;
+        }
+
+        .pera {
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .usd {
+            font-size: 25px;
+            color: rgb(121, 109, 109);
+            font-weight: normal;
+            margin-left: 5px;
+        }
+        .gain {
+            font-size: 20px;
+            color: rgb(0, 128, 0);
+           
+            margin-top: 10px;
+            font-family: Arial;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .red {
+            color: rgb(155, 10, 10);
+            font-weight: bold;
+        }
+        .after-hours {
+            font-size: 20px;
+            color: rgb(83, 80, 80);
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .camp-org {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: arial;
+            margin-bottom: 20px;
+
+        }
+        .free-code {
+            color: grey;
+            font-family: arial;
+            margin-bottom: 20px;
+        }
+        .web-dev {
+            font-size: 30px;
+            width: 1020px;
+            margin-top: 10px;
+            font-family: arial;
+            font-weight: bold;
+        }
+        .chp {
+            font-family: arial;
+            color: rgb(53, 145, 210);
+        }
+        .here {
+            font-family: arial;
+            font-size: 30px;
+            width: 1020px;
+            
+        }
